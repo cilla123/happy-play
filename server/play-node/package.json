@@ -1,0 +1,21 @@
+{
+  "name": "play-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "Play.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ben赖珏豪",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "glob": "^7.1.2",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.5",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.5"
+  }
+}
