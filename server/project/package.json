@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development && node ./server/babel.app.js"
+    "dev": "cross-env NODE_ENV=development && node start.js"
   },
   "author": "Ben赖珏豪",
   "license": "MIT",
@@ -17,6 +17,8 @@
     "babel-polyfill": "6.23.0",
     "babel-preset-env": "1.6.0",
     "babel-register": "6.24.1",
-    "cross-env": "^5.1.4"
+    "chalk": "^2.3.2",
+    "cross-env": "^5.1.4",
+    "nodemon": "^1.17.3"
   }
 }
