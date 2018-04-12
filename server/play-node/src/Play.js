@@ -12,7 +12,7 @@ const pkg = require('../package.json')
 const router = require('./middlewares/router')
 const router2 = require('./middlewares/router2')
 const router3 = require('./middlewares/router3')
-const package = require('../package.json')
+
 const {
     BusinessError,
     ParamsError,
