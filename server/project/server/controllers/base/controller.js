@@ -1,4 +1,4 @@
-const { Controller } = require('../../../play-node');
+const { Controller } = require('../../../../play-node');
 
 class BaseController extends Controller {
 

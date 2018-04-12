@@ -271,7 +271,7 @@ class Happy extends Emitter {
 }
 
 
-// module.exports = Happy
+module.exports = Happy
 
 module.exports.BusinessError = BusinessError
 module.exports.ParamsError = ParamsError

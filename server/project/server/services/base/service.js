@@ -1,4 +1,4 @@
-const { Service } = require('happy-node');
+const { Service } = require('../../../../play-node');
 const ServiceError = require('./service_error');
 
 class BaseService extends Service {

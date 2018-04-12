@@ -1,4 +1,4 @@
-const { BusinessError, ParamsError } = require('happy-node');
+const { BusinessError, ParamsError } = require('../../../play-node');
 
 module.exports = async(ctx, next) => {
   try {
