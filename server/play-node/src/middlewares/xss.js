@@ -22,7 +22,7 @@ module.exports = function(options) {
         let query = ctx.query;
         let bodyData = ctx.request.body;
         let one = options.WHITELISTS.find((item) => item.pathReg.test(ctx.path));
-        // 黑科技
+
         if (one && one.options && one.options.close) {
             await next();
             return;

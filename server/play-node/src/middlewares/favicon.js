@@ -1,4 +1,4 @@
-const resolve = require('path').resolve;
+const { resolve } = require('path');
 const fs = require('fs');
 
 module.exports = function(path, options) {
@@ -24,7 +24,7 @@ module.exports = function(path, options) {
             ctx.status = ctx.method === 'OPTIONS' ? 200 : 405;
             ctx.set('Allow', 'GET, HEAD, OPTIONS');
         } else {
-            // lazily read the icon
+            // 延时加载读取
             if (!icon) icon = fs.readFileSync(path);
             ctx.set('Cache-Control', cacheControl);
             ctx.type = 'image/x-icon';

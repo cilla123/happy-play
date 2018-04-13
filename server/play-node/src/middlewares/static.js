@@ -1,6 +1,7 @@
 const koaStatic = require('koa-static');
 
 /**
+ * 静态资源管理
  * @param  {String} root root directory string. nothing above this root directory can be served
  * @param  {Object} opts options object.
  *

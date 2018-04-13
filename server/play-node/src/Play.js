@@ -144,8 +144,6 @@ class Happy extends Emitter {
     }
 
     // 自动加载业务中间件
-    // >= 0.0.17 自动加载
-    // 低版本 手动在 server/app.js 下配置
     autoLoadMiddlewares() {
         const middlewareDebug = debug('happy:middleware');
         const middlewares = require(this.config.MIDDLEWARES_PATH);

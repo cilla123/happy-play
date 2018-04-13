@@ -8,6 +8,9 @@ const { mapKeysToSnakeCase } = require('happy-utils/string');
 // 添加扩展
 env.addExtension('AutoEscapeExtension', new AutoEscapeExtension(env));
 
+/**
+ * JS、CSS读取和注入
+ */
 module.exports = function(config) {
 
     const loadJs = function(key, vendor = false, crossorigin = false, ifAsync = false) {

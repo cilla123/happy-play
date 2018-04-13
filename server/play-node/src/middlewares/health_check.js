@@ -1,5 +1,8 @@
 const ajax = require('axios');
 
+/**
+ * 状态检查
+ */
 module.exports = async(ctx, next) => {
   if (ctx.path === '/_HB_') {
     try {

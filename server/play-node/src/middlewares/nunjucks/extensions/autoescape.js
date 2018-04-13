@@ -25,7 +25,6 @@ function AutoEscapeExtension(_env) {
         var opts = _env.opts ? _env.opts : _env;
         var key = opts.autoescape !== undefined ? "autoescape" : "autoesc";
 
-
         var ret, before = opts[key];
         opts[key] = !!mode;
         ret = new nunjucks.runtime.SafeString(body());

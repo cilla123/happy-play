@@ -4,6 +4,9 @@ const debug = require('debug')('happy:router');
 const isFunction = require('lodash/isFunction');
 const router = require('../libs/router');
 
+/**
+ * 路由读取
+ */
 module.exports = function(app, config) {
     if (!fs.existsSync(config.ROUTERS_PATH)) {
         return;
